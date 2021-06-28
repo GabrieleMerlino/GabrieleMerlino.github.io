@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    color: #262626;
+}
+
+h2{
+    font-family: 'Cairo', sans-serif;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+h3{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+h4{
+    font-family: 'Cairo', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    color: #262626;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+hr{
+    border: 4px solid #eda853;
+    width: 60%;
+}
+
+.box{
+    height: 100vh;
+}
+
+nav{
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+    float: left;
+    padding: 60px 0px;
+    text-align: right;
+}
+
+nav h1{
+    font-size: 35px;
+    font-family: 'Courgette', cursive;
+}
+
+nav span{    
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    color: #4f4f4f;
+    text-transform: uppercase;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+li{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+li a{
+    color: #b0b0b0;
+    transition: all 0.1s ease-in;
+}
+
+li a:hover{
+    color: #262626;
+    border-bottom: 3px solid #eda853;
+}
+
+li a:focus{
+    color: #262626;
+    border-bottom: 3px solid #eda853;
+}
+
+#container{
+    margin-left: 290px;
+    padding: 30px;
+}
+
+#container h1{
+    font-size: 120px;
+}
+
+#header{
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-bottom: 50px;
+}
+
+.half-box{
+    width: 50%;
+    float:left;
+}
+
+#profile{
+    border-radius: 100%;
+    width: 50%;
+    float:right;
+    margin-right: 100px;
+}
+
+/* PORTFOLIO */
+
+.container_photo_5{
+    margin: 10px;
+    width: 50%;
+    float:left;
+}
+
+.container_photo_4{
+    margin: 10px;
+    width: 40%;
+    float:left;
+}
+
+.container_photo_2{
+    margin: 10px;
+    width: 32%;
+    float:left;
+}
+
+.photo_land{
+    position: relative; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 480px;
+    width: 100%;
+}
+
+.photo_port{
+    position: relative; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 850px;
+}
+
+.photo_square{
+    position: relative; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 850px;
+}
+
+.photo_three{
+    position: relative; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+}
+
+.info_photo{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    transition: all 0.4 ease;
+}
+
+.info_photo h2{
+    line-height: 25px;
+}
+
+#divisore{
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+#ill_def{
+    background-image: url("img/ILL_DEF.png");
+}
+
+#langhe{
+    background-image: url("img/langhe.png");
+}
+
+#pesce{
+    background-image: url("img/pesce.png");
+}
+
+#alice{
+    background-image: url("img/alice.jpg");
+}
+
+#carro{
+    background-image: url("img/carro.jpg");
+}
+
+#scala{
+    background-image: url("img/scala.jpg");
+}
+
+#casa{
+    background-image: url("img/casa.jpg");
+}
+
+#tronco{
+    background-image: url("img/tronco.png");
+}
+
+#funghi{
+    background-image: url("img/funghi.png");
+}
+
+#fungo{
+    background-image: url("img/fungo.jpg");
+}
+
+
+/* STUDI */
+#contatti h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+.percorso{
+    width: 60%;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.data-percorso{
+    background-color:#eda853;
+    padding: 20px 0px;
+}
+
+.contenuto-percorso{
+    padding: 30px 0px;
+}
+
+/* CONTATTI */
+#box_contatti{
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+#instagram-icon{
+    color: #b0b0b0;
+    transition: all 0.1s ease-in;
+}
+
+#instagram-icon:hover{
+    color: #262626;
+}
